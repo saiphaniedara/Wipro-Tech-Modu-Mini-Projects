@@ -1,0 +1,65 @@
+input[type=text] {
+    border: 2px groove black;
+    padding: 5px;
+}
+button {
+    margin-left: 5px;
+}
+.outerbox {
+    margin-left:5%;
+    margin-right: 5%;
+}
+.smallbox {
+    padding: 10px;
+}
+.book-thumb {
+    width: 100px;
+    height: 150px;
+}
+.book-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: firebrick;
+}
+.author-name {
+    font-size: 14px;
+    color: teal;
+}
+.book-price {
+    font-size: 18px;
+    color: navy;
+}
+#promotion {
+    margin-top: 3%;
+    background-color: purple;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-watercolor-light-purple-e-commerce-taobao-banner-background-image_181316.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container {
+    padding: 30px;
+}
+#details {
+    margin-left: 20%;
+    margin-right:10%;
+    float: left;
+    text-align: center;
+    color: purple;
+}
+#options {
+    clear: left;
+    margin-top: 10px;
+    background-color: coral; 
+}
+@media(max-width: 600px)
+{
+    #details {
+        float: none;
+    }
+    #image {
+        margin-top: 20px;
+        margin-left: 20%;
+        margin-right:10%;
+    }
+}
+

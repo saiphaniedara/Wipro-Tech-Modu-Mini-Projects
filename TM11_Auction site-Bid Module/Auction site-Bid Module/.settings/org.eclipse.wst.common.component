@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Auction site-Bid Module">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Auction_site-Bid_Module"/>
+        <property name="java-output-path" value="/Auction site-Bid Module/build/classes"/>
+    </wb-module>
+</project-modules>

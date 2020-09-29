@@ -1,0 +1,51 @@
+body {
+    background-color: purple;
+    color: black;
+    font-weight: bold;
+}
+table {
+    margin: 20px;
+}
+th {
+    background-color: seashell;
+    font-size: 20px;
+    padding: 5px;
+    color: royalblue;
+}
+td {
+    padding :5px;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+#fn:focus, #ln:focus, #pwd:focus, #cpwd:focus, #mobno:focus, #dob:focus, #email:focus {
+    background-color: teal;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+#reg:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+#reg {
+    padding: 5px;
+}
+#regform {
+    clear: right;
+    margin-right: 35%;
+    margin-left: 35%;
+    
+    background-color: grey;
+}
+#date {
+    background-color: whitesmoke;
+    color: red;
+    font-weight: bold;
+    width: 200px;
+    float: right;
+}
+#dateTime {
+    padding-left: 15px;
+}

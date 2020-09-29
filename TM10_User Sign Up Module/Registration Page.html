@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registration Page
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="date">
+        <p id="dateTime"></p>
+    </div>
+    <form action="success.html" id="regform">
+        <table>
+            <tr>
+                <th colspan="2" align="Center">Registration Form</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fn">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="fn" id="fn" placeholder="Enter First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ln">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="ln" id="ln" placeholder="Enter Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="pwd" id="pwd" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cpwd">Confirm Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="cpwd" id="cpwd" placeholder="Confirm your Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobno">Mobile Number:</label>
+                </td>
+                <td>
+                    <input type="text" name="mobno" id="mobno" placeholder="XXX-XXX-XXXX">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                </td>
+                <td>
+                    <input type="text" name="dob" id="dob" placeholder="DD-MM-YYYY">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="text" name="email" id="email" placeholder="somename@example.com">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Register" id="reg" onclick="return validate()"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
