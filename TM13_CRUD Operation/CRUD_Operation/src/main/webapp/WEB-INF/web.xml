@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddEmployeeServlet</servlet-name>
+  	<display-name>AddEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.service.AddEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowEmployeeServlet</servlet-name>
+  	<display-name>ShowEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.service.ShowEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DisplayEmployeeServlet</servlet-name>
+  	<display-name>DisplayEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.service.DisplayEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteEmployeeServlet</servlet-name>
+  	<display-name>DeleteEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.service.DeleteEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ModifyEmployeeServlet</servlet-name>
+  	<display-name>ModifyEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.service.ModifyEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddEmployeeServlet</servlet-name>
+  	<url-pattern>/AddEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowEmployeeServlet</servlet-name>
+  	<url-pattern>/ShowEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DisplayEmployeeServlet</servlet-name>
+  	<url-pattern>/DisplayEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteEmployeeServlet</servlet-name>
+  	<url-pattern>/DeleteEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ModifyEmployeeServlet</servlet-name>
+  	<url-pattern>/ModifyEmployeeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
